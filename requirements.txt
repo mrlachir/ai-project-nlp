@@ -1,0 +1,2 @@
+run file with : 
+C:/Python313/python.exe ui/translator_app.py
