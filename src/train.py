@@ -13,17 +13,18 @@ DATA_PATH = "data_clean/many_to_many_dataset.csv"
 VOCAB_PATH = "data_clean/word2idx.json"
 MODEL_DIR = "models"
 
-EPOCHS = 1                  # ONE epoch is enough for demo
-BATCH_SIZE = 4              # VERY important for CPU
-MAX_LEN = 20                # shorter sequences = faster
+EPOCHS = 6                  # ONE epoch is enough for demo
+BATCH_SIZE = 12              # VERY important for CPU
+MAX_LEN = 30                # shorter sequences = faster
+MAX_BATCHES_PER_EPOCH = 3000  # <<< KEY SPEED FIX
+
 EMB_DIM = 128
 HID_DIM = 256
 N_LAYERS = 1
 DROPOUT = 0.2
 LR = 0.001
-TEACHER_FORCING = 0.5
+TEACHER_FORCING = 0.7
 
-MAX_BATCHES_PER_EPOCH = 300  # <<< KEY SPEED FIX
 
 # ============================
 # SETUP

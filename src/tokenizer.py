@@ -6,7 +6,7 @@ import re
 # Configuration
 # ----------------------------
 DATA_PATH = "data_clean/many_to_many_dataset.csv"
-VOCAB_SIZE = 12000   # CPU-safe
+VOCAB_SIZE = 30000   # was 30000
 SPECIAL_TOKENS = [
     "<PAD>", "<SOS>", "<EOS>", "<UNK>",
     "<EN>", "<FR>", "<ES>"
